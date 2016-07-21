@@ -77,3 +77,8 @@ function GitClonePull($path, $url, $branch="master")
         }
     }
 }
+
+
+function log_message($message){
+    echo "[$(Get-Date)] $message"
+}
